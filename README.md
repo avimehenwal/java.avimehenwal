@@ -15,7 +15,7 @@ set -x PATH (pwd) $HOME/mySoftwares/openjdk-12+32_linux-x64_bin/jdk-12
 
 ```
 
-![IntelliJ Run Configuration](intellij.png)
+![IntelliJ Run Configuration](demo/intellij.png)
 
 ## Desktop Application
 
@@ -41,11 +41,13 @@ set -x PATH (pwd) $HOME/mySoftwares/openjdk-12+32_linux-x64_bin/jdk-12
 ## Issues
 
 * https://github.com/gluonhq/client-samples/issues/9
+* FXML Loader?
 
 
 ### Scenebuilder
 
 * `/opt/SceneBuilder/SceneBuilder`
+* [ ] Transision between scene to scene
 
 
 ## Native desktop App
