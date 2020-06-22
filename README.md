@@ -76,3 +76,4 @@ set -x PATH (pwd) $HOME/mySoftwares/openjdk-12+32_linux-x64_bin/jdk-12
 * https://github.com/callicoder/javafx-examples
 * https://www.tutorialspoint.com/javafx/index.htm
 * https://openjfx.io/javadoc/14/
+* https://fxdocs.github.io/docs/index.html
