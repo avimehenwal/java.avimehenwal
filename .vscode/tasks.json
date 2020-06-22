@@ -4,24 +4,36 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "javaFX build",
+            "label": "javaFX compile",
             "type": "shell",
-            "command": "java",
+            "options": {
+                "env": {
+                    "JAVA_HOME": "/home/avi/mySoftwares/openjdk-12+32_linux-x64_bin/jdk-12",
+                    "PATH_TO_FX": "/home/avi/mySoftwares/openjfx-14.0.1_linux-x64_bin-sdk/javafx-sdk-14.0.1/lib"
+                }
+            },
+            "command": "javac",
+            "args": [
+                "--module-path", "$PATH_TO_FX",
+                "--add-modules", "javafx.controls,javafx.fxml",
+                "${file}"
+            ]
+        },
+        {
+            "label": "javaFX run",
+            "type": "shell",
             "options": {
                 // "cwd": "${workspaceFolder}/beam",
                 "env": {
                     "JAVA_HOME": "$HOME/mySoftwares/openjdk-12+32_linux-x64_bin/jdk-12",
-                    "PATH_TO_FX": "$HOME/mySoftwares/openjfx-14.0.1_linux-x64_bin-sdk/javafx-sdk-14.0.1/lib"
+                    "PATH_TO_FX": "/home/avi/mySoftwares/openjfx-14.0.1_linux-x64_bin-sdk/javafx-sdk-14.0.1/lib"
                 }
             },
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
+            "command": "java",
             "args": [
+                // "--version",
                 "--module-path", "$PATH_TO_FX",
                 "--add-modules", "javafx.controls,javafx.fxml",
-                // "${file}"
                 "${fileDirname}/${fileBasenameNoExtension}"
             ]
         }

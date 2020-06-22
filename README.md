@@ -15,6 +15,8 @@ set -x PATH (pwd) $HOME/mySoftwares/openjdk-12+32_linux-x64_bin/jdk-12
 
 ```
 
+![IntelliJ Run Configuration](intellij.png)
+
 ## Desktop Application
 
 > We set scene on stage
@@ -58,22 +60,19 @@ set -x PATH (pwd) $HOME/mySoftwares/openjdk-12+32_linux-x64_bin/jdk-12
 * Electron packager
 
 
-<Procons>
-  <template v-slot:pro>
-    <h3>Some pros</h3>
-    <ol>
-      <li>render chrome with nodeJS</li>
-      <li>Leverage Web Talent</li>
-    </ol>
-  </template>
+### Pro
 
-  <template v-slot:con>
-    <h3>Some cons</h3>
-    <ol>
-      <li>Larger app size even with small functionality</li>
-      <li>Higher resources consumption</li>
-      <li>Alternatives - javaFX</li>
-    </ol>
+* render chrome with nodeJS
+* Leverage Web Talent
 
-  </template>
-</Procons>
+### Cons
+
+* Larger app size even with small functionality
+* Higher resources consumption
+* Alternatives - javaFX
+
+## Resources
+
+* https://github.com/callicoder/javafx-examples
+* https://www.tutorialspoint.com/javafx/index.htm
+* https://openjfx.io/javadoc/14/
