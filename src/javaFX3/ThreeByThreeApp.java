@@ -1,14 +1,14 @@
 import javafx.application.Application;
+import javafx.geometry.Pos;
 import javafx.scene.Group;
-import javafx.scene.Scene;
+import javafx.scene.layout.TilePane;
 import javafx.scene.paint.Color;
+import javafx.scene.Scene;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
-import javafx.scene.layout.TilePane;
-import javafx.geometry.Pos;
 
 public class ThreeByThreeApp extends Application {
 
