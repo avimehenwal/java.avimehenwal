@@ -1,6 +1,6 @@
 # java.avimehenwal
 
-code practise
+> code practise
 
 ```
 java --version
@@ -77,3 +77,11 @@ set -x PATH (pwd) $HOME/mySoftwares/openjdk-12+32_linux-x64_bin/jdk-12
 * https://www.tutorialspoint.com/javafx/index.htm
 * https://openjfx.io/javadoc/14/
 * https://fxdocs.github.io/docs/index.html
+
+
+### Demos
+
+![demo1](demo/eventListner.png)
+![demo2](demo/tileLayout.png)
+![demo3](demo/title.png)
+![demo4](demo/hello-world.png)
