@@ -16,12 +16,12 @@ public class Fxml extends Application {
     public void start(Stage primaryStage) throws Exception{
 //        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
 //         Parent root = FXMLLoader.load(getClass().getResource("javaFX6/sample.fxml"));
-        // Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
 
-        FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("sample.fxml"));
-        Parent root = loader.load();
-
+//
+//        FXMLLoader loader = new FXMLLoader();
+//        loader.setLocation(getClass().getResource("sample.fxml"));
+//        Parent root = loader.load();
+        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("Hello World");
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();
