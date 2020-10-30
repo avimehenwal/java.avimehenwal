@@ -25,6 +25,7 @@
         "localization",
         "release",
         "vscode",
-        "scene"
+        "scene",
+        "scenebuilder"
     ]
 }

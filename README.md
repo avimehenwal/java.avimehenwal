@@ -1,6 +1,6 @@
 # java.avimehenwal
 
-code practise
+> code practise
 
 ```
 java --version
@@ -15,7 +15,7 @@ set -x PATH (pwd) $HOME/mySoftwares/openjdk-12+32_linux-x64_bin/jdk-12
 
 ```
 
-![IntelliJ Run Configuration](intellij.png)
+![IntelliJ Run Configuration](demo/intellij.png)
 
 ## Desktop Application
 
@@ -41,11 +41,13 @@ set -x PATH (pwd) $HOME/mySoftwares/openjdk-12+32_linux-x64_bin/jdk-12
 ## Issues
 
 * https://github.com/gluonhq/client-samples/issues/9
+* FXML Loader?
 
 
 ### Scenebuilder
 
 * `/opt/SceneBuilder/SceneBuilder`
+* [ ] Transision between scene to scene
 
 
 ## Native desktop App
@@ -77,3 +79,12 @@ set -x PATH (pwd) $HOME/mySoftwares/openjdk-12+32_linux-x64_bin/jdk-12
 * https://www.tutorialspoint.com/javafx/index.htm
 * https://openjfx.io/javadoc/14/
 * https://fxdocs.github.io/docs/index.html
+* https://github.com/gluonhq/scenebuilder/wiki/Basic-JavaFX-project-with-Scene-Builder
+
+
+### Demos
+
+![demo1](demo/eventListner.png)
+![demo2](demo/tileLayout.png)
+![demo3](demo/title.png)
+![demo4](demo/hello-world.png)
